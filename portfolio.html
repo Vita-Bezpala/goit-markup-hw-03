@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -16,38 +17,37 @@
   <body>
     <header class="shadow-header">
       <div class="container">
-      <nav class="container primary-nav">
-        <a href="./index.html" class="header-logo-web link"
-          >Web <span class="header-logo-studio link">studio</span></a
-        >
+        <nav class="primary-nav">
+          <a href="./index.html" class="header-logo-web link"
+            >Web <span class="header-logo-studio link">studio</span></a
+          >
+          <ul class="list nav-items">
+            <li>
+              <a href="./index.html" class="header-navigation link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="header-navigation link"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="Contacts" class="header-navigation link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="list nav-items">
           <li>
-            <a href="./index.html" class="header-navigation link">Studio</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="header-navigation link"
-              >Portfolio</a
+            <a href="mailto:info@devstudio.com" class="contact-link link"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="Contacts" class="header-navigation link">Contacts</a>
+            <a href="tel:110001111111" class="contact-link link"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
-      </nav>
-      <div class="contact-indent">
-      <ul class="list nav-items">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact-link link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:110001111111" class="contact-link link"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
-    </div>
+      </div>
     </header>
     <main>
       <section>
@@ -61,10 +61,10 @@
             <button type="button" class="header-button">Marketing</button>
           </li>
         </ul>
-</div>
+      </div>
+        <div class="container">
         <h1 class="visually-hidden">Portfolio</h1>
-        <ul class="list">
-          <div class="wrapper container">
+        <ul class="images-portfolio-list list">
           <li class="indent-one">
             <img
               src="images/image8.jpg"
@@ -72,10 +72,10 @@
               width="360"
               height="300"
             />
-            <div class="post-content">
+            <div class="list-text">
             <h3 class="item">Banking App Interface Concept</h3>
             <p class="section-item">App</p>
-            </div>
+          </div>
           </li>
           <li class="indent-one">
             <img
@@ -84,10 +84,10 @@
               width="360"
               height="300"
             />
-            <div class="post-content">
+            <div class="list-text">
             <h3 class="item">Cashless Payment</h3>
             <p class="section-item">Marketing</p>
-          </div>
+            </div>
           </li>
           <li class="indent-one">
             <img
@@ -96,93 +96,88 @@
               width="360"
               height="300"
             />
-            <div class="post-content">
+            <div class="list-text">
             <h3 class="item">Meditaion App</h3>
             <p class="section-item">App</p>
             </div>
           </li>
-        </div>
-        <div class="wrapper container">
-          <li class="indent-two">
+          <li class="indent-one">
             <img
               src="images/image11.jpg"
               alt="image 11"
               width="360"
               height="300"
             />
-            <div class="post-content">
+            <div class="list-text">
             <h3 class="item">Taxi Service</h3>
             <p class="section-item">Marketing</p>
-          </div>
+            </div>
           </li>
-          <li class="indent-two">
+          <li class="indent-one">
             <img
               src="images/image12.jpg"
               alt="image 12"
               width="360"
               height="300"
             />
-            <div class="post-content">
+            <div class="list-text">
             <h3 class="item">Screen Illustrations</h3>
             <p class="section-item">Design</p>
-          </div>
+            </div>
           </li>
-          <li class="indent-two">
+          <li class="indent-one">
             <img
               src="images/image13.jpg"
               alt="image 13"
               width="360"
               height="300"
             />
-            <div class="post-content">
+            <div class="list-text">
             <h3 class="item">Online Courses</h3>
             <p class="section-item">Marketing</p>
-          </div>
+            </div>
           </li>
-          </div>
-          <div class="wrapper container">
-          <li class="indent-three">
+          <li class="indent-one">
             <img
               src="images/image14.jpg"
               alt="image 14"
               width="360"
               height="300"
             />
-            <div class="post-content">
+            <div class="list-text">
             <h3 class="item">Instagram Stories Concept</h3>
-            <p class="section-item">Design</p>
-          </div>
+            <p class="section-item bottom-distance">Design</p>
+            </div>
           </li>
-          <li class="indent-three">
+          <li class="indent-one">
             <img
               src="images/image15.jpg"
               alt="image 15"
               width="360"
               height="300"
             />
-            <div class="post-content">
+            <div class="list-text">
             <h3 class="item">Organic Food</h3>
-            <p class="section-item">Web Site</p>
+            <p class="section-item bottom-distance">Web Site</p>
           </div>
           </li>
-          <li class="indent-three">
+          <li class="indent-one">
             <img
               src="images/image16.jpg"
               alt="image 16"
               width="360"
               height="300"
             />
-            <div class="post-content">
+            <div class="list-text">
             <h3 class="item">Fresh Coffee</h3>
-            <p class="section-item">Web Site</p>
-          </div>
+            <p class="section-item bottom-distance">Web Site</p>
+            </div>
           </li>
-        </div>
         </ul>
       </div>
       </section>
     </main>
-    <footer class="footer-background indent-footer container">
+    <footer class="footer-background container">
       <a href="./index.html" class="header-logo-web link footer-logo"
         >Web <span class="header-logo-st link">studio</span></a
       >

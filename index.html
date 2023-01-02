@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -16,159 +17,170 @@
   <body>
     <header class="shadow-header">
       <div class="container">
-      <nav class="container primary-nav">
-        <a href="./index.html" class="header-logo-web link"
-          >Web <span class="header-logo-studio link">studio</span></a
-        >
+        <nav class="primary-nav">
+          <a href="./index.html" class="header-logo-web link"
+            >Web <span class="header-logo-studio link">studio</span></a
+          >
+          <ul class="list nav-items">
+            <li>
+              <a href="./index.html" class="header-navigation link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="header-navigation link"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="Contacts" class="header-navigation link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="list nav-items">
           <li>
-            <a href="./index.html" class="header-navigation link">Studio</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="header-navigation link"
-              >Portfolio</a
+            <a href="mailto:info@devstudio.com" class="contact-link link"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="Contacts" class="header-navigation link">Contacts</a>
+            <a href="tel:110001111111" class="contact-link link"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
-      </nav>
-      <div class="contact-indent">
-      <ul class="list nav-items">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact-link link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:110001111111" class="contact-link link"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
-    </div>
+      </div>
     </header>
     <main>
-      <section class="section-background container">
-        <h1 class="title indent-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="header-btn">Order Service</button>
-      </section>
-      <section class>
-        <h2 class="visually-hidden">Soft skills</h2>
-        <ul class="list">
-          <div class="wrapper container">
-          <li class="indent-text">
-            <h3 class="soft-skills">Strategy</h3>
-            <p class="text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li class="indent-text">
-            <h3 class="soft-skills">Punctuality</h3>
-            <p class="text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="indent-text">
-            <h3 class="soft-skills">Diligence</h3>
-            <p class="text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="indent-text">
-            <h3 class="soft-skills">Technologies</h3>
-            <p class="text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
+      <section class="section-background">
+        <div class="container">
+          <h1 class="title indent-title">
+            Effective Solutions for Your Business
+          </h1>
+          <button type="button" class="header-btn">Order Service</button>
         </div>
-        </ul>
       </section>
       <section>
-        <h2 class="subtitle indent-sub">What are we doing</h2>
-        <ul class="list">
-          <div class="wrapper container">
-          <li class="indent-image-one">
-            <img
-              src="images/image1.jpg"
-              alt="image 1"
-              width="360"
-              height="300"
-            />
-          </li>
-          <li class="indent-image-one">
-            <img
-              src="images/image2.jpg"
-              alt="image 2"
-              width="360"
-              height="300"
-            />
-          </li>
-          <li class="indent-image-one">
-            <img
-              src="images/image3.jpg"
-              alt="image 3"
-              width="360"
-              height="300"
-            />
-          </li>
+        <div class="container">
+          <h2 class="visually-hidden">Soft skills</h2>
+          <ul class="about-list list">
+            <li class="indent-text">
+              <h3 class="soft-skills">Strategy</h3>
+              <p class="text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="indent-text">
+              <h3 class="soft-skills">Punctuality</h3>
+              <p class="text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="indent-text">
+              <h3 class="soft-skills">Diligence</h3>
+              <p class="text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="indent-text">
+              <h3 class="soft-skills">Technologies</h3>
+              <p class="text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
         </div>
-        </ul>
+      </section>
+      <section>
+        <div class="container">
+          <h2 class="subtitle-one">What are we doing</h2>
+          <ul class="about-list list">
+            <li class="images-item">
+              <img
+                src="images/image1.jpg"
+                alt="image 1"
+                width="360"
+                height="300"
+              />
+            </li>
+            <li class="images-item">
+              <img
+                src="images/image2.jpg"
+                alt="image 2"
+                width="360"
+                height="300"
+              />
+            </li>
+            <li class="images-item">
+              <img
+                src="images/image3.jpg"
+                alt="image 3"
+                width="360"
+                height="300"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="background">
-        <h2 class="subtitle indent-subtitle">Our Team</h2>
-        <ul class="list">
-          <div class="wrapper container">
-          <li class="indent-image-one">
-            <img
-              src="images/image4.jpg"
-              alt="photo Mark Guerrero"
-              width="264"
-              height="260"
-            />
-            <h3 class="item images">Mark Guerrero</h3>
-            <p class="section-item images">Product Designer</p>
-          </li>
-          <li class="indent-image-one">
-            <img
-              src="images/image5.jpg"
-              alt="photo Tom Ford"
-              width="264"
-              height="260"
-            />
-            <h3 class="item images">Tom Ford</h3>
-            <p class="section-item images">Frontend Developer</p>
-          </li>
-          <li class="indent-image-one">
-            <img
-              src="images/image6.jpg"
-              alt="photo Camila Garcia"
-              width="264"
-              height="260"
-            />
-            <h3 class="item images">Camila Garcia</h3>
-            <p class="section-item images">Marketing</p>
-          </li>
-          <li class="indent-image-one">
-            <img
-              src="images/image7.jpg"
-              alt="photo Daniel Wilson"
-              width="264"
-              height="260"
-            />
-            <h3 class="item images">Daniel Wilson</h3>
-            <p class="section-item images">UI Designer</p>
-          </li>
+        <div class="container">
+          <h2 class="subtitle">Our Team</h2>
+          <ul class="about-list list">
+            <li class="img-item">
+              <img
+                src="images/image4.jpg"
+                alt="photo Mark Guerrero"
+                width="264"
+                height="260"
+              />
+              <div class="team-text">
+                <h3 class="item images">Mark Guerrero</h3>
+                <p class="section-item images">Product Designer</p>
+              </div>
+            </li>
+            <li class="img-item">
+              <img
+                src="images/image5.jpg"
+                alt="photo Tom Ford"
+                width="264"
+                height="260"
+              />
+              <div class="team-text">
+                <h3 class="item images">Tom Ford</h3>
+                <p class="section-item images">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="img-item">
+              <img
+                src="images/image6.jpg"
+                alt="photo Camila Garcia"
+                width="264"
+                height="260"
+              />
+              <div class="team-text">
+                <h3 class="item images">Camila Garcia</h3>
+                <p class="section-item images">Marketing</p>
+              </div>
+            </li>
+            <li class="img-item">
+              <img
+                src="images/image7.jpg"
+                alt="photo Daniel Wilson"
+                width="264"
+                height="260"
+              />
+              <div class="team-text">
+                <h3 class="item images">Daniel Wilson</h3>
+                <p class="section-item images">UI Designer</p>
+              </div>
+            </li>
+          </ul>
         </div>
-        </ul>
       </section>
     </main>
-    <footer class="footer-background indent-footer container">
+    <footer class="footer-background container">
       <a href="./index.html" class="header-logo-web link footer-logo"
         >Web <span class="header-logo-st link">studio</span></a
       >
