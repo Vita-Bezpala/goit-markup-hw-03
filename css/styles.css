@@ -104,7 +104,8 @@ body {
 }
 
 .shadow-header {
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .primary-nav {
@@ -126,6 +127,7 @@ body {
 
 .contact-link {
   color: #434455;
+  font-weight: 400;
 }
 
 .contact-link:hover,
@@ -142,17 +144,15 @@ body {
 }
 .section-background {
   background: #2e2f42;
-  width: 1440px;
-  height: 603px;
-  left: 0px;
-  top: 72px;
   margin: auto;
+  background-position: center;
+  padding-top: 192px;
+  padding-bottom: 192px;
 }
 
 .indent-title {
   max-width: 492px;
   margin: 0 auto;
-  padding-top: 188px;
   margin-bottom: 48px;
   max-width: 496px;
 }
@@ -197,36 +197,38 @@ body {
   line-height: 1.2;
 }
 
+.section-size {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-size-work {
+  padding-bottom: 120px;
+}
+
 .about-list {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 
 .about-list-team {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-top: 72px;
-  margin-bottom: 120px;
 }
 
 .text {
-  letter-spacing: 0.02em;
   color: #434455;
-  max-width: 264px;
   order: 1;
   flex-grow: 0;
+  margin: 0;
   margin-top: 8px;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 400;
 }
-
 .indent-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 264px;
+  width: calc((100% - 24 * 3) / 4);
 }
 
 .subtitle-one {
@@ -237,6 +239,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .subtitle {
@@ -251,6 +254,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .images {
@@ -317,7 +321,8 @@ body {
   letter-spacing: 0.04em;
   border-radius: 4px;
   padding: 12px 24px;
-  margin-bottom: 72px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .header-button:hover,
@@ -343,6 +348,7 @@ body {
 .section-item {
   text-align: center;
   color: #434455;
+  font-weight: 400;
 }
 
 .list-text {
@@ -352,6 +358,7 @@ body {
   align-items: flex-start;
   padding: 0px 16px;
   gap: 8px;
+  padding-top: 32px;
 }
 
 .images-portfolio-list {
@@ -363,13 +370,24 @@ body {
 
 .indent-one {
   width: calc((100% - 48px) / 3);
+  border: 0.5px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  width: 360px;
+  height: 420px;
+  left: 156px;
+  top: 288px;
 }
-.bottom-distance {
-  margin-bottom: 120px;
+
+.section-size-portfolio {
+  padding-top: 72px;
+  padding-bottom: 120px;
 }
+
+/* Bottom */
 
 .footer {
   color: #e7e9fc;
+  font-weight: 400;
 }
 .footer-background {
   background-color: #2e2f42;
@@ -378,12 +396,11 @@ body {
 
 .footer-logo {
   margin: 0;
-  margin-left: 156px;
+  padding-top: 100px;
 }
 
 .footer-content {
   margin: 0;
-  padding-top: 138px;
+  padding-top: 16px;
   max-width: 264px;
-  margin-left: -115px;
 }
