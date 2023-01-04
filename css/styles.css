@@ -247,14 +247,10 @@ body {
   display: block;
   font-size: 36px;
   line-height: 1.11;
-  margin: 0 auto;
-  max-width: 162px;
-  min-width: 162px;
   align-items: center;
   text-align: center;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .images {
@@ -287,8 +283,8 @@ body {
 .background {
   background: #f4f4fd;
   padding: 0;
-  height: 732px;
-  top: 1551px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /* List ul, ol */
